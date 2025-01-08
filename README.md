@@ -63,6 +63,7 @@ Segmentation performance is evaluated using the following metrics:
 | HausdorffDT Loss            | 0.3300 | Inf     | 0.2800 | 29     |
 | DiceFocal-HausdorffDT Loss  | 0.4925 | 1.4225  | 0.5300 | 72     |
 | Tversky-HausdorffDT Loss    | 0.5000 | 1.6250  | 0.5325 | 59     |
+
 *Table 1: Metric-Based Comparison of Loss Functions*
 
 ![Loss Function Comparison (Visualized)](https://github.com/user-attachments/assets/8a9c5b0e-6584-429f-9818-c1086981d680)
