@@ -87,7 +87,6 @@ To get a comprehensive understanding of the project, please refer to the "Term P
 | Folder/File                                          | Description                                                                                                                            |
 | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | /Data/ | Raw and preprocessed data files aren't uploaded due to GitHub's upload constraints. However, it contains notes regarding the preprocessed dataset reproducibility. |
-| /Presentation.mp4 | Video submission explaining the project.     |
 | /Preprocessing.ipynb | Notebook to convert raw files to preprocessed maps and labels through resampling, normalization, and concatenation.     |
 | /Main.ipynb | Main project notebook containing data loading, augmentation, training, evaluation, and experimentation process.     |
 | /Term Paper.PDF    | Detailed paper explaining the project, including defense of different strategies used and discussion on findings.    |
