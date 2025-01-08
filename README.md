@@ -86,12 +86,11 @@ To get a comprehensive understanding of the project, please refer to the "Term P
 ## **Repository Contents**
 | Folder/File                                          | Description                                                                                                                            |
 | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| /Corpus/ | Contains scrapped judgements in PDF & Text format along with its metadata as a CSV file. Also, contains merged content and metadata CSV file as well as final cleaned corpus CSV. |
-| /Corpus Generation & Preprocessing/DocScrapper.ipynb | Scrapes SCP judgments and associated metadata from the official website.     |
-| /Corpus Generation & Preprocessing/PDF2TXT&CSV.ipynb | Converts judgment PDFs to text, performs OCR, and links metadata.     |
-| /Corpus Generation & Preprocessing/TextPreprocessing.ipynb | Preprocesses text to clean, normalize, and structure legal documents.     |
-| /SCPRAG.ipynb | Implements the RAG pipeline, chunking, embedding, and evaluation.     |
-| /Report.PDF    | Detailed report explaining the workflow, experiments, and results.    |
+| /Data/ | Raw and preprocessed data files aren't uploaded due to GitHub's upload constraints. However, it contains notes regarding the preprocessed dataset reproducibility. |
+| /Presentation.mp4 | Video submission explaining the project.     |
+| /Preprocessing.ipynb | Notebook to convert raw files to preprocessed maps and labels through resampling, normalization, and concatenation.     |
+| /Main.ipynb | Main project notebook containing data loading, augmentation, training, evaluation, and experimentation process.     |
+| /Term Paper.PDF    | Detailed paper explaining the project, including defense of different strategies used and discussion on findings.    |
 
 
 ## **Acknowledgments**
