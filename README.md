@@ -1,11 +1,10 @@
 # Multimodal HIE Lesion Segmentation in Neonates: A Study of Loss Functions
-## **Overview**
 This repository implements a 3D U-Net for the segmentation of Hypoxic-Ischemic Encephalopathy (HIE) lesions in neonatal MRI scans. The project utilizes the BONBID-HIE dataset and explores the optimization of loss functions for improved segmentation accuracy. Specifically, we investigate several loss functions including Dice Loss, Dice-Focal Loss, Tversky Loss, and Hausdorff Distance Loss, along with two novel hybrid loss functions that combine Dice-Focal and Tversky Loss with Hausdorff Distance Loss. Our findings highlight the superior performance of the Tversky-HausdorffDT Loss.
 
 This is a term project for Deep Learning (96943) Fall 24' course taught by Dr. Tahir Syed at the Institute of Business Administration (IBA) Karachi. It's a collaborative effort of Abdul Haseeb and Annayah Usman.
 
 ## **Workflow**
-![High Level Overview](https://github.com/user-attachments/assets/8673a13b-e271-49af-8831-5d98070fd6bc)
+![High Level Overview](https://github.com/user-attachments/assets/9f4e1421-1c64-40a1-a57d-1566fd4647c3)
 *Figure 1: Brief Overview of the Project*
 
 ## **Visualizing The Problem**
@@ -64,8 +63,10 @@ Segmentation performance is evaluated using the following metrics:
 | HausdorffDT Loss            | 0.3300 | Inf     | 0.2800 | 29     |
 | DiceFocal-HausdorffDT Loss  | 0.4925 | 1.4225  | 0.5300 | 72     |
 | Tversky-HausdorffDT Loss    | 0.5000 | 1.6250  | 0.5325 | 59     |
+*Table 1: Metric-Based Comparison of Loss Functions*
 
 ![Loss Function Comparison (Visualized)](https://github.com/user-attachments/assets/8a9c5b0e-6584-429f-9818-c1086981d680)
+*Figure 6: Visualizing Segmentation Masks Across Loss Functions*
 
 * Hybrid loss functions perform better than standalone loss function but take longer to converge.
 * Tversky-HausdorffDT Loss achieved the highest performance in terms of Dice and NSD while maintaining competitive MSD.
